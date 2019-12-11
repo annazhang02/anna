@@ -6,7 +6,7 @@
   <style type="text/css">
    body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
-    background: #e1dfb9; /* Цвет фона */
+    background: #FFB6C1; /* Цвет фона */
    }
    h2 {
     font-size: 1.1em; /* Размер шрифта */
