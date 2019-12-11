@@ -1,4 +1,3 @@
-# anna
 <!doctype html>
 <html>
  <head>
@@ -7,7 +6,7 @@
   <style type="text/css">
    body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
-    background: #54463d; /* Цвет фона */
+    background: #FFFACD; /* Цвет фона */
     margin: 0; /* Убираем отступы */
    }
    h2 {
