@@ -4,51 +4,42 @@
   <meta charset="utf-8" />
   <title>Сайт-звіт до лабораторних робіт студента (ки) 1 курсу групи "Фізика"</title>
   <style type="text/css">
-   body {
+    body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
-    background: #FFDAB9; /* Цвет фона */
-   
+    background: #e1dfb9; /* Цвет фона */
    }
    h2 {
     font-size: 1.1em; /* Размер шрифта */
-    color:#54463d; /* Цвет текста */
-    margin-bottom: 0; /* Отступ сверху */
+    color: #800040; /* Цвет текста */
+    margin-top: 0; /* Отступ сверху */
    }
    #container {
-    width: 500px; /* Ширина сверху*/
-    margin: 0 auto; /* Выравниваем по центру */
-    background: #f0f0f0; /* Цвет фона правой колонки */ 
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
    }
    #header {
-    background: #8fa09b; /* Цвет фона */
     font-size: 2.2em; /* Размер текста */
-    font-weight: bold; /* Жирное начертание */
-    text-align: center; /* Выравнивание по центру/ *
-    color: #edeed5; /* Цвет текста */
+    text-align: center; /* Выравнивание по центру */
     padding: 5px; /* Отступы вокруг текста */
-   }
-   #content {
-    float: left; /* Обтекание по правому краю */
-    width: 80%; /* Ширина левой колонки */
-    padding: 10px; /* Поля вокруг текста */
-    border-right: 1px dashed #183533; /* Линия справа */
-    background: #fff; /* Цвет фона левой колонки */
-   }
-   #content  {
-    margin-left: 130px /* Отступ слева */
+    background: #8fa09b; /* Цвет фона шапки */
+    color: #ffe; /* Цвет текста */
    }
    #sidebar {
-    float: left; /* Обтекание по правому краю */
-     margin-top: 10px;
-    width: 110px; /* Ширина */
+    margin-top: 10px; 
+    width: 110px; /* Ширина слоя */
     padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+   }
+   #content {
+    margin-left: 130px; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+    background: #fff; /* Цвет фона правой колонки */
    }
    #footer {
-    background: #8fa09b; /* Цвет фона */
+    background: #8fa09b; /* Цвет фона подвала */
     color: #fff; /* Цвет текста */
     padding: 5px; /* Отступы вокруг текста */
-   }
-   .clear { 
     clear: left; /* Отменяем действие float */
    }
   </style>
