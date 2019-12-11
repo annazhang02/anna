@@ -6,12 +6,12 @@
   <style type="text/css">
    body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
-    background: #FFFACD; /* Цвет фона */
+    background: #FFDAB9; /* Цвет фона */
     margin: 0; /* Убираем отступы */
    }
    h2 {
     font-size: 1.1em; /* Размер шрифта */
-    color: #752641; /* Цвет текста */
+    color: #FFDAB9; /* Цвет текста */
     margin-bottom: 0; /* Отступ снизу */
    }
    #container {
