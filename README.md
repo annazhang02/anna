@@ -6,7 +6,7 @@
   <style type="text/css">
    body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
-    background: #54463d; /* Цвет фона */
+    background: #FFDAB9; /* Цвет фона */
     margin: 0; /* Убираем отступы */
    }
    h2 {
