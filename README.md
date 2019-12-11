@@ -7,22 +7,23 @@
    body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
     background: #FFDAB9; /* Цвет фона */
-    margin: 0; /* Убираем отступы */
+   
    }
    h2 {
     font-size: 1.1em; /* Размер шрифта */
     color:#54463d; /* Цвет текста */
-    margin-bottom: 0; /* Отступ снизу */
+    margin-bottom: 0; /* Отступ сверху */
    }
    #container {
-    width: 100%; /* Ширина макета */
+    width: 500px; /* Ширина сверху*/
     margin: 0 auto; /* Выравниваем по центру */
     background: #f0f0f0; /* Цвет фона правой колонки */ 
    }
    #header {
     background: #8fa09b; /* Цвет фона */
-    font-size: 24pt; /* Размер текста */
+    font-size: 2.2em; /* Размер текста */
     font-weight: bold; /* Жирное начертание */
+    text-align: center; /* Выравнивание по центру/ *
     color: #edeed5; /* Цвет текста */
     padding: 5px; /* Отступы вокруг текста */
    }
