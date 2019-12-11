@@ -59,12 +59,12 @@
    </div>
    <div id="sidebar">
     <p><a href="index.html">Домашня сторінка</a></p>
-    <p><a href="https://docs.google.com/document/d/12W_uc0i9LJisxP2YYYcN4V8lQ7h4G1THOUkyCgjTv2M/edit?usp=sharing">звіт до лабораторної роботи №1. Тема - Текстовий процесор</a></p>
-    <p><a href="https://docs.google.com/document/d/1N8PLFJHXu8lsp0EWow7oC8-nFV1XoLXDWhVhhOfM_No/edit?usp=sharing">звіт до лабораторної роботи №2. Тема - Форматування за зразком</a></p>
-    <p><a href="https://docs.google.com/drawings/d/1CU8eKqqD-5KqzZKdznU9N-3ZjVyVTDX8jEWpvygjN7c/edit?usp=sharing">звіт до лабораторної роботи №3. Тема - Google малюнок</a></p>
-    <p><a href="https://drive.google.com/file/d/1ZuV9R5LgXhQAI5VWfGKv_95ToNQgtujf/view?usp=sharing">звіт до лабораторної роботи №4. Тема - Табличний процессор </a></p>
-    <p><a href="https://docs.google.com/spreadsheets/d/1u5hDEI1lY-1GuOccfE8VOzkf8QYr-Rd9AVpDearvWms/edit?usp=sharing">звіт до лабораторної роботи №5-6. Тема - Табличний процессор</a></p>
-    <p><a href="https://drive.google.com/file/d/1E9xdPLcBPC13jQIzpKLCjRmI_CzjlRUC/view?usp=sharing">звіт до лабораторної роботи №7. Тема -  Адресація</a></p>
+    <p><a href="https://docs.google.com/document/d/12W_uc0i9LJisxP2YYYcN4V8lQ7h4G1THOUkyCgjTv2M/edit?usp=sharing">Звіт до лабораторної роботи №1. Тема - Текстовий процесор</a></p>
+    <p><a href="https://docs.google.com/document/d/1N8PLFJHXu8lsp0EWow7oC8-nFV1XoLXDWhVhhOfM_No/edit?usp=sharing">Звіт до лабораторної роботи №2. Тема - Форматування за зразком</a></p>
+    <p><a href="https://docs.google.com/drawings/d/1CU8eKqqD-5KqzZKdznU9N-3ZjVyVTDX8jEWpvygjN7c/edit?usp=sharing">Звіт до лабораторної роботи №3. Тема - Google малюнок</a></p>
+    <p><a href="https://drive.google.com/file/d/1ZuV9R5LgXhQAI5VWfGKv_95ToNQgtujf/view?usp=sharing">Звіт до лабораторної роботи №4. Тема - Табличний процессор </a></p>
+    <p><a href="https://docs.google.com/spreadsheets/d/1u5hDEI1lY-1GuOccfE8VOzkf8QYr-Rd9AVpDearvWms/edit?usp=sharing">Звіт до лабораторної роботи №5-6. Тема - Табличний процессор</a></p>
+    <p><a href="https://drive.google.com/file/d/1E9xdPLcBPC13jQIzpKLCjRmI_CzjlRUC/view?usp=sharing">Звіт до лабораторної роботи №7. Тема -  Адресація</a></p>
    </div>
    <div class="clear"></div>
    <div id="footer">&copy; Сайт-звіт до лабораторних робіт студента (ки) 1 курсу групи "Фізики"</div>
