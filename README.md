@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
- <head>
-  <meta charset="utf-8" />
-  <title>Сайт-звіт до лабораторних робіт студента (ки) 1 курсу групи "Фізика"</title>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Сайт-звіт до лабораторних робіт студента (ки) 1 курсу групи "Фізики</title>
   <style type="text/css">
-    body {
+   body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
     background: #e1dfb9; /* Цвет фона */
    }
