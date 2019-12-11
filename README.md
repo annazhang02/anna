@@ -54,12 +54,13 @@
  <body>
   <div id="container">
    <div id="header">Сайт-звіт до лабораторних робіт студента (ки) 1 курсу групи "Фізика"</div>
-   <div id="content">
+   <div id="sidebar">
     <h2>Сайт-звіт до лабораторних робіт студента (ки) 1 курсу групи "Фізики"</h2>
+    <ul>
    </div>
    <div id="sidebar">
     <p><a href="index.html">Домашня сторінка</a></p>
-    <p><a href="https://docs.google.com/document/d/12W_uc0i9LJisxP2YYYcN4V8lQ7h4G1THOUkyCgjTv2M/edit?usp=sharing">звіт до лабораторної роботи №1. Тема - Текстовий процесор</a></p>
+    <li><p><a href="https://docs.google.com/document/d/12W_uc0i9LJisxP2YYYcN4V8lQ7h4G1THOUkyCgjTv2M/edit?usp=sharing">звіт до лабораторної роботи №1. Тема - Текстовий процесор</li></a></p>
     <p><a href="lab2.html">звіт до лабораторної роботи №2. Тема - Google презентація</a></p>
     <p><a href="lab3.html">звіт до лабораторної роботи №3. Тема - Google малюнок</a></p>
     <p><a href="lab4.html">звіт до лабораторної роботи №4. Тема - Google форма-опитування</a></p>
@@ -68,6 +69,7 @@
    </div>
    <div class="clear"></div>
    <div id="footer">&copy; Сайт-звіт до лабораторних робіт студента (ки) 1 курсу групи "Фізика"</div>
+    </ul>
   </div>
  </body>
 </html>
