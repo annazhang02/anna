@@ -11,7 +11,7 @@
    }
    h2 {
     font-size: 1.1em; /* Размер шрифта */
-    color: #FFDAB9; /* Цвет текста */
+    color:#8B4513; /* Цвет текста */
     margin-bottom: 0; /* Отступ снизу */
    }
    #container {
