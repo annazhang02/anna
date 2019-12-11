@@ -34,13 +34,14 @@
     border-right: 1px dashed #183533; /* Линия справа */
     background: #fff; /* Цвет фона левой колонки */
    }
-   #content p {
-    margin-top: 0.3em /* Отступ сверху */
+   #content  {
+    margin-left: 130px /* Отступ слева */
    }
    #sidebar {
     float: left; /* Обтекание по правому краю */
-    width: 120px; /* Ширина */
-    padding: 10px; /* Отступы вокруг текста */
+     margin-top: 10px;
+    width: 110px; /* Ширина */
+    padding: 0 10px; /* Отступы вокруг текста */
    }
    #footer {
     background: #8fa09b; /* Цвет фона */
@@ -48,7 +49,7 @@
     padding: 5px; /* Отступы вокруг текста */
    }
    .clear { 
-    clear: both; /* Отмена обтекания */ 
+    clear: left; /* Отменяем действие float */
    }
   </style>
  </head>
