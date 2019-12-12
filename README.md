@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Сайт-звіт до лабораторних робіт студента (ки) 1 курсу групи "Фізики</title>
+  <title><b>Сайт-звіт до лабораторних робіт студента (ки) 1 курсу групи "Фізики"</b></title>
   <style type="text/css">
    body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
