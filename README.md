@@ -22,7 +22,7 @@
     font-size: 2.2em; /* Размер текста */
     text-align: center; /* Выравнивание по центру */
     padding: 5px; /* Отступы вокруг текста */
-    background: #8fa09b; /* Цвет фона шапки */
+    background: #87CEFA /* Цвет фона шапки */
     color: #ffe; /* Цвет текста */
    }
    #sidebar {
