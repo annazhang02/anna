@@ -37,7 +37,7 @@
     background: #fff; /* Цвет фона правой колонки */
    }
    #footer {
-    background: #8fa09b; /* Цвет фона подвала */
+    background: #DB7093; /* Цвет фона подвала */
     color: #fff; /* Цвет текста */
     padding: 5px; /* Отступы вокруг текста */
     clear: left; /* Отменяем действие float */
