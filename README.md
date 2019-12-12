@@ -16,7 +16,7 @@
    #container {
     width: 500px; /* Ширина слоя */
     margin: 0 auto; /* Выравнивание по центру */
-    background: #f0f0f0; /* Цвет фона левой колонки */
+    background:#FFE4C4; /* Цвет фона левой колонки */
    }
    #header {
     font-size: 2.2em; /* Размер текста */
