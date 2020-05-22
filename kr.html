@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<HTML>
+ <HEAD>
+  <TITLE>Контрольная работа</TITLE>
+  <META NAME="generator" CONTENT="wxMaxima">
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    displayAlign: "left",
+    context: "MathJax",
+    TeX: {TagSide: "left"}
+  })
+</script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML">
+</script>
+  <link rel="stylesheet" type="text/css" href="Контрольная работа_htmlimg/Контрольная работа.css"/>
+ </HEAD>
+ <BODY>
+
+<!-- ***************************************************** -->
+<!--          Created with wxMaxima version 19.05.7         -->
+<!-- ***************************************************** -->
+<noscript><div class="error message">    Please enable JavaScript in order to get a 2d display of the equations embedded in this web page.</div></noscript>\(      \DeclareMathOperator{\abs}{abs}
+      \newcommand{\ensuremath}[1]{\mbox{$#1$}}
+\)
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i2)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_function">ratsimp</span>(((<span class="code_number">4</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">4</span><span class="code_operator">+</span><span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">5</span><span class="code_operator">−</span><span class="code_number">81</span>·<span class="code_variable">x</span><span class="code_operator">−</span><span class="code_number">324</span>)<span class="code_operator">/</span>(<span class="code_number">3</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">4</span><span class="code_operator">+</span><span class="code_number">10</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">3</span><span class="code_operator">−</span><span class="code_number">81</span>·<span class="code_variable">x</span><span class="code_operator">−</span><span class="code_number">270</span>))·((<span class="code_number">3</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">3</span><span class="code_operator">+</span><span class="code_number">19</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">2</span><span class="code_operator">+</span><span class="code_number">57</span>·<span class="code_variable">x</span><span class="code_operator">+</span><span class="code_number">90</span>)<span class="code_operator">/</span>(<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">4</span><span class="code_operator">+</span><span class="code_number">7</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">3</span><span class="code_operator">+</span><span class="code_number">21</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">2</span><span class="code_operator">+</span><span class="code_number">63</span>·<span class="code_variable">x</span><span class="code_operator">+</span><span class="code_number">108</span>)))<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o2} 1\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i4)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_function">ratsimp</span>(<span class="code_number">9</span>·(<span class="code_variable">x</span><span class="code_operator">−</span><span class="code_number">1</span>)<span class="code_operator">^</span><span class="code_number">2</span>·(<span class="code_variable">x</span><span class="code_operator">+</span><span class="code_number">2</span>)<span class="code_operator">^</span><span class="code_number">3</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o4} 9 {{x}^{5}}+36 {{x}^{4}}+9 {{x}^{3}}-90 {{x}^{2}}-36 x+72\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i5)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_function">factor</span>(<span class="code_number">9</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">5</span><span class="code_operator">+</span><span class="code_number">36</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">4</span><span class="code_operator">+</span><span class="code_number">9</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">3</span><span class="code_operator">−</span><span class="code_number">90</span>·<span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">2</span><span class="code_operator">−</span><span class="code_number">36</span>·<span class="code_variable">x</span><span class="code_operator">+</span><span class="code_number">72</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o5} 9 {{\left( x-1\right) }^{2}}\, {{\left( x+2\right) }^{3}}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_function">wxplot2d</span>([<span class="code_function">sin</span>(<span class="code_variable">x</span>)·√(<span class="code_number">81</span><span class="code_operator">−</span><span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">2</span>),<span class="code_number">5</span>·<span class="code_function">atan</span>(<span class="code_variable">x</span>)],[<span class="code_variable">x</span>,<span class="code_number">−</span><span class="code_number">5</span>,<span class="code_number">5</span>])<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i6)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_function">wxplot2d</span>([<span class="code_function">sin</span>(<span class="code_variable">x</span>)·√(<span class="code_number">81</span><span class="code_operator">−</span><span class="code_variable">x</span><span class="code_operator">^</span><span class="code_number">2</span>),<span class="code_number">5</span>·<span class="code_function">atan</span>(<span class="code_variable">x</span>)], [<span class="code_variable">x</span>,<span class="code_number">−</span><span class="code_number">5</span>,<span class="code_number">5</span>])<span class="code_endofline">$</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%t6} \]
+  <img src="Контрольная работа_htmlimg/Контрольная работа_4.png" width="598" style="max-width:90%;" alt=" (Graphics) " ><BR/>
+
+
+ <HR>
+ <SMALL> Created with <A HREF="https://wxMaxima-developers.github.io/wxmaxima/">wxMaxima</A>.</SMALL>
+ </BODY>
+</HTML>

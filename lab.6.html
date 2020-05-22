@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<HTML>
+ <HEAD>
+  <TITLE>lab6</TITLE>
+  <META NAME="generator" CONTENT="wxMaxima">
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    displayAlign: "left",
+    context: "MathJax",
+    TeX: {TagSide: "left"}
+  })
+</script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML">
+</script>
+  <link rel="stylesheet" type="text/css" href="lab6_htmlimg/lab6.css"/>
+ </HEAD>
+ <BODY>
+
+<!-- ***************************************************** -->
+<!--          Created with wxMaxima version 19.05.7         -->
+<!-- ***************************************************** -->
+<noscript><div class="error message">    Please enable JavaScript in order to get a 2d display of the equations embedded in this web page.</div></noscript>\(      \DeclareMathOperator{\abs}{abs}
+      \newcommand{\ensuremath}[1]{\mbox{$#1$}}
+\)
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+(<span class="code_variable">A</span>)<span class="code_operator">:</span><span class="code_function">matrix</span>([<span class="code_number">5</span>,<span class="code_number">−</span><span class="code_number">3</span>,<span class="code_number">4</span>],[<span class="code_number">1</span>,<span class="code_number">−</span><span class="code_number">2</span>,<span class="code_number">0</span>],[<span class="code_number">3</span>,<span class="code_number">−</span><span class="code_number">4</span>,<span class="code_number">2</span>])<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o1} \begin{pmatrix}5 & -3 & 4\\
+1 & -2 & 0\\
+3 & -4 & 2\end{pmatrix}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+(<span class="code_variable">b</span>)<span class="code_operator">:</span><span class="code_function">matrix</span>([<span class="code_number">3</span>,<span class="code_number">1</span>,<span class="code_number">5</span>],[<span class="code_number">2</span>,<span class="code_number">−</span><span class="code_number">1</span>,<span class="code_number">0</span>],[<span class="code_number">−</span><span class="code_number">5</span>,<span class="code_number">1</span>,<span class="code_number">1</span>])<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o2} \begin{pmatrix}3 & 1 & 5\\
+2 & -1 & 0\\
+-5 & 1 & 1\end{pmatrix}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+(<span class="code_variable">A</span>)<span class="code_operator">+</span>(<span class="code_variable">b</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o3} \begin{pmatrix}8 & -2 & 9\\
+3 & -3 & 0\\
+-2 & -3 & 3\end{pmatrix}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+(<span class="code_variable">A</span>)<span class="code_operator">−</span>(<span class="code_variable">b</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o4} \begin{pmatrix}2 & -4 & -1\\
+-1 & -1 & 0\\
+8 & -5 & 1\end{pmatrix}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_number">3</span>·(<span class="code_variable">A</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o5} \begin{pmatrix}15 & -9 & 12\\
+3 & -6 & 0\\
+9 & -12 & 6\end{pmatrix}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_number">−</span><span class="code_number">2</span>·(<span class="code_variable">b</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o6} \begin{pmatrix}-6 & -2 & -10\\
+-4 & 2 & 0\\
+10 & -2 & -2\end{pmatrix}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+(<span class="code_variable">A</span>)·(<span class="code_variable">b</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o7} \begin{pmatrix}15 & -3 & 20\\
+2 & 2 & 0\\
+-15 & -4 & 2\end{pmatrix}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_function">transpose</span>(<span class="code_variable">A</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o8} \begin{pmatrix}5 & 1 & 3\\
+-3 & -2 & -4\\
+4 & 0 & 2\end{pmatrix}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+(<span class="code_variable">E</span>)<span class="code_operator">:</span><span class="code_function">matrix</span>([<span class="code_number">1</span>,<span class="code_number">0</span>],[<span class="code_number">0</span>,<span class="code_number">1</span>])<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o9} \begin{pmatrix}1 & 0\\
+0 & 1\end{pmatrix}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_number">4</span>·(<span class="code_variable">E</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o10} \begin{pmatrix}4 & 0\\
+0 & 4\end{pmatrix}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+(<span class="code_variable">b</span>)·(<span class="code_variable">A</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o11} \begin{pmatrix}15 & -3 & 20\\
+2 & 2 & 0\\
+-15 & -4 & 2\end{pmatrix}\]
+
+ <HR>
+ <SMALL> Created with <A HREF="https://wxMaxima-developers.github.io/wxmaxima/">wxMaxima</A>.</SMALL>
+ </BODY>
+</HTML>
